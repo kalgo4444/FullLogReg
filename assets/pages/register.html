@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="icon" href="./assets/images/titileIcon.png">
-    <link rel="stylesheet" href="./src/style.css">
+    <title>Regsiter</title>
+    <link rel="stylesheet" href="../../src/style.css">
 </head>
 <body>
     <main>
         <section class="w-full h-[100dvh] flex items-center justify-center p-5 bg-red-500 select-none">
             <div class="w-[900px] flex">
                 <div class="w-[50%] hidden min-[850px]:block">
-                    <img src="./assets/images/bgImage.png" alt="" class="w-full h-full">
+                    <img src="../images/bgImage.png" alt="" class="w-full h-full">
                 </div>
                 <div class="bg-white w-full min-[850px]:w-[50%] flex flex-col  justify-center py-6 px-3 md:px-10 max-[850px]:rounded-lg">
                     <form action="">
-                        <p class="text-3xl font-semibold mb-5 relative border-b-4 border-red-500 inline-block pb-2">Login</p> <br>
+                        <p class="text-3xl font-semibold mb-5 relative border-b-4 border-red-500 inline-block pb-2">Register</p> <br>
                         <label for="username" class="text-base sm:text-lg">Username *</label>
                         <input type="username" id="username" required placeholder="Enter Your Username" class="py-3 bg-second outline-0 focus-within:outline-1 focus-within:outline-red-500 w-full mb-6 placeholder:text-black text-base sm:placeholder:text-lg indent-6">
                         <label for="passwd" class="text-base sm:text-lg">Password *</label>
                         <input type="password" id="passwd" required placeholder="Enter Your Password" class="py-3 bg-second outline-0 focus-within:outline-1 focus-within:outline-red-500 w-full mb-6 text-base sm:placeholder:text-lg placeholder:text-black indent-6">
-                        <input type="checkbox" id="remember" required>
-                        <label for="remember" class="text-sm">Remember me</label>
-                        <button class="text-lg text-white bg-red-500 w-full py-3 mt-4 mb-3 hover:bg-red-700 active:bg-red-300 duration-100">LOGIN</button>
+                        <label for="passwd" class="text-base sm:text-lg">Confirm Password *</label>
+                        <input type="password" id="passwd" required placeholder="Enter Your Password" class="py-3 bg-second outline-0 focus-within:outline-1 focus-within:outline-red-500 w-full mb-6 text-base sm:placeholder:text-lg placeholder:text-black indent-6">
+                        <button class="text-lg text-white bg-red-500 w-full py-3 mt-4 mb-2.5 hover:bg-red-700 active:bg-red-300 duration-100 uppercase">register</button>
                     </form>
-                    <a href="./assets/pages/forgerPasswd.html" class="text-sm decoration-0 text-threed inline-block hover:text-red-500 duration-100">Forget Password?</a>
-                    <a href="./assets/pages/register.html" class="text-sm decoration-0 text-threed mt-3 hover:text-red-500 duration-100">Don't have an account?</a>
+                    <a href="../../index.html" class="text-sm decoration-0 text-threed mt-3 hover:text-red-500 duration-100">Already have account?</a>
                 </div>
             </div>
         </section>

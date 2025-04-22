@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restore Password</title>
+    <link rel="icon" href="../images/titileIcon.png">
+    <link rel="stylesheet" href="../../src/style.css">
+</head>
+<body>
+    <main>
+        <section class="w-full h-[100dvh] flex items-center justify-center p-5 bg-red-500 select-none">
+            <div class="w-[900px] flex">
+                <div class="w-[50%] hidden min-[850px]:block">
+                    <img src="../images/bgImage.png" alt="" class="w-full h-full">
+                </div>
+                <div class="bg-white w-full max-[850px]:min-h-[400px] max-[325px]:min-h-[500px] min-[850px]:w-[50%] flex flex-col  justify-center py-6 px-3 md:px-10 relative max-[850px]:rounded-lg">
+                    <form action="">
+                        <div class="absolute top-6 max-[850px]:left-4 left-10">
+                            <p class="text-3xl font-semibold mb-4 relative border-b-4 border-red-500 inline-block pb-2 ">Restore Password</p> <br>
+                        </div>
+                        <label for="email" class="text-base sm:text-lg">Email *</label>
+                        <input type="email" id="email" required placeholder="Enter Your Email" class="py-3 bg-second outline-0 focus-within:outline-1 focus-within:outline-red-500 w-full mb-6 placeholder:text-black text-base sm:placeholder:text-lg indent-6">
+                        <input type="checkbox" id="aggree" required>
+                        <label for="aggree" class="text-sm">You are agree to SEND SPAM EMAIL</label>
+                        <button class="text-lg text-white bg-red-500 w-full py-3 mt-4 mb-2.5 hover:bg-red-700 active:bg-red-300 duration-100">SEND</button>
+                    </form>
+                    <a href="../../index.html" class="text-sm decoration-0 text-threed mt-3 hover:text-red-500 duration-100">Already have account?</a>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
