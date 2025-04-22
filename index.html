@@ -3,9 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register - Qizlar bilan tanishing</title>
+    <title>Login - Qizlar bilan tanishing</title>
+    <link rel="stylesheet" href="./src/style.css">
 </head>
 <body>
-    <h2>1</h2>
+    <main>
+        <section class="w-full h-[100dvh] flex items-center justify-center p-5 bg-red-500">
+            <div class="w-[900px] flex">
+                <div class="w-[50%] h-[500px] hidden min-[850px]:block">
+                    <img src="./assets/images/bgImage.png" alt="" class="w-full h-full">
+                </div>
+                <div class="bg-white w-full min-[850px]:w-[50%] flex flex-col  justify-center py-6 px-3 md:px-10">
+                    <form action="">
+                        <p class="text-3xl font-semibold mb-5 relative border-b-4 border-red-500 inline-block pb-2">Login</p> <br>
+                        <label for="username" class="text-base sm:text-lg">Username *</label> <br>
+                        <input type="username" id="username" required placeholder="Enter Your Username" class="py-3 bg-second outline-0 focus-within:outline-1 focus-within:outline-red-500 w-full mb-6 placeholder:text-black text-sm sm:placeholder:text-base pl-4">
+                        <label for="passwd" class="text-base sm:text-lg">Password *</label> <br>
+                        <input type="password" id="passwd" required placeholder="Enter Your Password" class="py-3 bg-second outline-0 focus-within:outline-1 focus-within:outline-red-500 w-full mb-6 text-sm sm:placeholder:text-base placeholder:text-black pl-4">
+                        <input type="checkbox" required>
+                        <label for="passwd" class="text-sm">Remember me</label>
+                        <button class="text-lg text-white bg-red-500 w-full py-3 mt-5 mb-5">LOGIN</button>
+                    </form>
+                    <a href="#" class="text-sm decoration-0 text-threed inline-block">Forget Password?</a>
+                    <a href="#" class="text-sm decoration-0 text-threed mt-4">Don't have an account?</a>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
